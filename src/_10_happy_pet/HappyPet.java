@@ -20,7 +20,7 @@ public class HappyPet {
 		JOptionPane.showMessageDialog(null, "You chose a cat.");
 		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
 	if (happinessLevel < 200) {
-		for (int i = 0; happinessLevel < 200; i++) {
+		for (int i = 0; happinessLevel < 300; i++) {
 			
 		
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
@@ -69,12 +69,14 @@ else {
 
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
-if (happinessLevel == 200) {
+if (happinessLevel == 300) {
 	JOptionPane.showMessageDialog(null, "ØTÍS LOVES YOU");
 	break;
 }
 else {
-	
+JOptionPane.showMessageDialog(null, "Keep on trying to make Otis happy!");	
+		
+
 }
 		}
 	}
